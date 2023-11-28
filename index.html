@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='./js/main.js'></script>
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+
+            <a href="#"> Cadastro de alunos</a>
+        </nav>
+
+    </header>
+    <section id="table">
+        nome
+        email
+        telefone
+        profissão
+
+        <form method="POST">
+
+            <div class="mb-3">
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" placeholder="insira o seu nome" required>
+
+            </div>
+
+            <div class="mb-3">
+                <label for="email">email</label>
+                <input id="email" type="text" placeholder="insira o seu email" required>
+
+            </div>
+
+
+            <div class="mb-3">
+                <label for="telefone">telefone</label>
+                <input id="telefone" type="text" placeholder="insira o seu telefone" required>
+
+            </div>
+
+            <div class="mb-3">
+                <label for="nome">Profissão</label>
+                <input id="Profissão" type="text" placeholder="digite a sua profissão" required>
+
+            </div>
+            <button id="submit">adicionar</button>
+            <button type="submit">iniciar grafico </button>
+
+        </form>
+        <hr>
+
+        <table id="mytable" border="1">
+            <tr>
+                <th>cod</th>
+                <th>Nome</th>
+                <th>email</th>
+                <th>telefone</th>
+                <th>Profissão</th>
+                <th>acao</th>
+            </tr>
+        </table>
+
+
+
+
+
+    </section>
+</body>
+
+</html>
