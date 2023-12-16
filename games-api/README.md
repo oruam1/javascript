@@ -7,7 +7,7 @@
 * dentro do arquivo, digite:
 node_modules/
 
-## criar a fake api sempre criada na rais do projeto
+## criar a fake api sempre criada na raiz do projeto
 * o arquivo da api sera criado na raiz do nosso projeto
 
 * npx json-server --watch database.json
